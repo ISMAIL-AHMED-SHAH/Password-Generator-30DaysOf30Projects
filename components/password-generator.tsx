@@ -130,12 +130,13 @@ export default function GeneratePasswordComponent() {
               </div>
             </div>
             <Button
-              type="button"
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg"
-              onClick={generatePassword}
-            >
-              Generate Password
-            </Button>
+  type="button"
+  className="w-full bg-gradient-to-r from-blue-600 to-pink-500 hover:from-blue-700 hover:via-purple-600 hover:to-pink-600 text-white py-2 rounded-lg"
+  onClick={generatePassword}
+>
+  Generate Password
+</Button>
+
             <div className="space-y-2">
               <Label htmlFor="password" className="text-blue-600">Generated Password</Label>
               <div className="flex items-center space-x-2">
